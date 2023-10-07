@@ -1,0 +1,25 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*, *:before, *:after {
+   box-sizing: inherit;
+}
+
+body {
+    font-family: $creepster;
+}
+
+img,
+video {
+    max-width: 100%;
+}
+
+.main-wrapper,
+main,
+section,
+article
+footer {
+    position: relative;
+    width:100%;
+}
